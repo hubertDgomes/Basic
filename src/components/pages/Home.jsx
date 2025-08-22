@@ -4,12 +4,25 @@ import Images from "../Images";
 import myPhoto from "/src/assets/remBG2.png";
 import { ReactTyped } from "react-typed";
 import SplashCursor from "../SplashCursor";
+import { motion } from "motion/react"
 
 const Home = () => {
   return (
     <>
       <Container className={""}>
-        <div className="h-screen flex items-center justify-center">
+        <motion.div
+        initial={{
+          x:-100,
+          opacity:0,
+        }}
+        whileInView={{
+          x:0,
+          opacity:1,
+        }}
+        transition={{
+          duration:1
+        }}
+        className="h-screen flex items-center justify-center">
           <div className="flex items-center justify-between px-6">
             <div className="font-Inter text-[60px] font-bold">
               <h1>
@@ -37,7 +50,7 @@ const Home = () => {
               <Images className={"w-[400px]"} src={myPhoto} />
             </div>
           </div>
-        </div>
+        </motion.div>
         <SplashCursor/>
       </Container>
     </>

@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <div className="max-w-[400px] h-screen py-7 px-7 text-center flex flex-col justify-between items-center absolute">
+      <div className="max-w-[400px] h-screen py-7 px-7 text-center lg:flex flex-col justify-between items-center absolute hidden">
 
         <div className="">
           <Images className={"w-[200px] m-auto"} src={logo} />
