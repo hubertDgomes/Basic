@@ -9,7 +9,7 @@ import { motion } from "motion/react"
 const Home = () => {
   return (
     <>
-      <Container className={""}>
+      <Container>
         <motion.div
         initial={{
           x:-100,
@@ -20,7 +20,7 @@ const Home = () => {
           opacity:1,
         }}
         transition={{
-          duration:1
+          duration:1.5
         }}
         className="h-screen flex items-center justify-center">
           <div className="flex items-center justify-between px-6">
