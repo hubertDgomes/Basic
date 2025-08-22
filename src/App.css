@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+  --font-Inter: "Inter", sans-serif; 
+  --font-Karla: "Karla", sans-serif; 
+  --font-Viaoda: "Viaoda Libre", serif; 
+}
