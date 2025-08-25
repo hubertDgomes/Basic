@@ -22,13 +22,13 @@ const Home = () => {
         transition={{
           duration:1.5
         }}
-        className="h-screen flex items-center justify-center">
-          <div className="flex items-center justify-between px-6">
-            <div className="font-Inter text-[60px] font-bold">
+        className="h-fit lg:h-screen flex items-center justify-center">
+          <div className="flex flex-col lg:flex-row items-center justify-between px-6">
+            <div className="font-Inter text-[30px] lg:text-[60px] font-bold">
               <h1>
                 Hi, I'm <span className="text-[#A5A6FF]">Hubert!</span>
               </h1>
-              <div>
+              <div className="">
                 <ReactTyped strings={["Creative"]} typeSpeed={40} />
 
                 <ReactTyped
@@ -36,14 +36,14 @@ const Home = () => {
                   typeSpeed={40}
                   backSpeed={50}
                   loop
-                  className="font-Viaoda"
+                  className="font-Viaoda text-[25px] lg:text-[30px]"
                 />
               </div>
               <h1>
                 Based In <span className="text-red-700">Bangla</span>
                 <span className="text-green-700">desh</span>
               </h1>
-              <p className="text-[19px] font-medium mr-[300px]">I'm a Bangladesh based web designer & front‑end developer with 0 year of experience</p>
+              <p className="text-[19px] font-medium lg:mr-[300px]">I'm a Bangladesh based web designer & front‑end developer with 0 year of experience</p>
             </div>
 
             <div>
