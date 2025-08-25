@@ -1,5 +1,6 @@
 import React from "react";
 import ScrollStack, { ScrollStackItem } from "/src/components/ScrollStack";
+import Container from "../Container";
 
 const Services = () => {
   return (
@@ -109,7 +110,9 @@ const Services = () => {
             custom website that drives sales for your unique business.
           </p>
         </ScrollStackItem>
+        
       </ScrollStack>
+
     </>
   );
 };

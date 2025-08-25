@@ -5,3 +5,9 @@
   --font-Karla: "Karla", sans-serif; 
   --font-Viaoda: "Viaoda Libre", serif; 
 }
+
+
+
+::-webkit-scrollbar {
+  display: none;
+}

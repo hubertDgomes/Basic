@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="max-w-[400px] h-screen py-7 px-7 text-center lg:flex flex-col justify-between items-center absolute hidden">
+    <div className="max-w-[400px] h-screen py-7 px-7 text-center lg:flex flex-col justify-between items-center absolute hidden overflow-scroll">
       <div>
         <Images className="w-[200px] m-auto" src={logo} />
         <h1 className="font-Inter font-semibold text-[30px] mt-[20px]">

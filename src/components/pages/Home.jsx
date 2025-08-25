@@ -36,7 +36,7 @@ const Home = () => {
                   typeSpeed={40}
                   backSpeed={50}
                   loop
-                  className="font-Viaoda text-[25px] lg:text-[30px]"
+                  className="font-Viaoda text-[25px] lg:text-[60px]"
                 />
               </div>
               <h1>
