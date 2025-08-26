@@ -2,10 +2,13 @@ import React from "react";
 import Container from "../Container";
 import { motion } from "motion/react";
 
+
 const About = () => {
   return (
     <>
-      <Container>
+    
+        
+      <Container className={""}>
         <motion.div
           initial={{
             x: -100,
@@ -84,19 +87,32 @@ const About = () => {
           </div>
           <div className="flex justify-between mt-[50px]">
             <div className="py-[80px] px-[100px] bg-[#D3F4EC] text-center">
-              <p className="font-Inter text-[48px] font-bold text-[#130F49]">0</p>
-              <p className="text-[18px] font-Karla font-semibold">Years of Experience</p>
+              <p className="font-Inter text-[48px] font-bold text-[#130F49]">
+                0
+              </p>
+              <p className="text-[18px] font-Karla font-semibold">
+                Years of Experience
+              </p>
             </div>
             <div className="py-[80px] px-[100px] bg-[#FCE8D4] text-center">
-              <p className="font-Inter text-[48px] font-bold text-[#130F49]">10+</p>
-              <p className="text-[18px] font-Karla font-semibold">Projects Completed</p>
+              <p className="font-Inter text-[48px] font-bold text-[#130F49]">
+                10+
+              </p>
+              <p className="text-[18px] font-Karla font-semibold">
+                Projects Completed
+              </p>
             </div>
             <div className="py-[80px] px-[100px] bg-[#E3F9E0] text-center">
-              <p className="font-Inter text-[48px] font-bold text-[#130F49]">0</p>
-              <p className="text-[18px] font-Karla font-semibold">Happy Clients</p>
+              <p className="font-Inter text-[48px] font-bold text-[#130F49]">
+                0
+              </p>
+              <p className="text-[18px] font-Karla font-semibold">
+                Happy Clients
+              </p>
             </div>
           </div>
         </motion.div>
+        
       </Container>
     </>
   );
